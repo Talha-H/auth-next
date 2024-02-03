@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Form from "./component/form";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-y-3">
-      <h1 className="text-6xl text-center ">Hello Auth</h1>
-      <Form/>
+      <h1 className="text-6xl flex justify-center items-center mt-32 ">Hello Auth</h1>
     </div>
   );
 }
