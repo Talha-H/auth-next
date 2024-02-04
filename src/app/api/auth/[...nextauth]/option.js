@@ -23,7 +23,7 @@ export const options = {
         },
       },
       async authorize(credentials) {
-        const user = { id: "42", name: "Talha", password: "Talha123" };
+        const user = { id: "42", name: "Jazzy", password: "Jazzy123" };
 
         if (
           credentials?.username === user.name &&

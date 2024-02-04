@@ -4,6 +4,7 @@ import { useSession } from "next-auth/react";
 // import { redirect } from "next/navigation";
 import { useRouter } from "next/navigation";
 import LogInRedirect from "@/component/LogInRedirect";
+import LogOut from "@/component/LogOut";
 // import LogOut from "@/component/LogOut";
 
 const About = () => {
@@ -24,6 +25,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-2xl ">Protected Page</h1>
         <p className="text-2xl">Welcome, {session.user.name}!</p>
+        <LogOut/>
       </div>
     </div>
   );
