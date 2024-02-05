@@ -18,6 +18,9 @@ export default function Home() {
         <Link href={"/extra"} className="text-3xl hover:underline">
           Extra
         </Link>
+        <Link href={"/user"} className="text-3xl hover:underline">
+          USer Page
+        </Link>
         <Link
           href={"http://localhost:3000/api/auth/signin/github"}
           onClick={AlertBtn}
