@@ -14,8 +14,8 @@ const Extra = () => {
   // if (!session) {
   //   return <LogInRedirect />;
   // }
-  if (status === "unauthenticated") {
-    router.push("http://localhost:3000/api/auth/signin/github")
+  if (status === "authenticated") {
+    router.push("http://localhost:3000/api/auth/signout/github")
   }
   return (
     <div>
