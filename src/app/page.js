@@ -7,7 +7,7 @@ export default function Home() {
     alert("are you confirm");
   };
   return (
-    <div className="flex flex-col gap-y-3">
+    <div className="flex  flex-col gap-y-3">
       <h1 className="text-6xl flex justify-center items-center mt-32 ">
         Hello Auth
       </h1>
@@ -30,6 +30,9 @@ export default function Home() {
           SIgnIn to github
         </Link>
       </div>
+      <Link href={"/load"} className="text-3xl hover:underline text-center mt-3">
+        Load
+      </Link>
     </div>
   );
 }
